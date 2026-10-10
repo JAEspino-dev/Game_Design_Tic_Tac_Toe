@@ -3,51 +3,75 @@
 /*******************************************/
 
 /* Box Model Hack */
-*{
+* {
   box-sizing: border-box;
-  font-size:62.5%;
+  font-size: 62.5%;
 }
+
 /* vh = viewheight */
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-body{
-  width: auto;
-  background:blue;
-}
-section{
-  width:75%;
-  margin-left:auto;
-  margin-right:auto;
-  margin-top:20vh; 
-  margin-bottom:20vh;
-}
-.row{
-  background:blue;
-  height:10rem;
-  width:auto;
-  display:flex;
-  align-items:center;
+body {
+  /* background: blue; */
+  background-image: url('images (1).jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  text-align:center;
-  font-size:10rem;
 }
-.column1, .column2, .column3{
-  flex-basis:30%;
-  width:auto;
-  height:10rem;
-  background:orange;
-  border:1px black solid;
+
+section {
+  background: rgb(12, 62, 105);
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 30%;
+  min-height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
-#restart{
+
+.row {
+  background: rgb(12, 62, 105);
+  min-height: 10rem;
+  min-width: 25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 10rem;
+}
+
+.column1,
+.column2,
+.column3 {
+  flex-basis: 30%;
+  width: auto;
+  height: 10rem;
+  background: orange;
+  border: 1px black solid;
+}
+
+#restart {
   display: block;
   margin: 2rem auto;
-  font-size:3rem;
+  font-size: 3rem;
 }
+
 h2 {
-  text-align:center;
-  font-size:3rem;
+  text-align: center;
+  font-size: 3rem;
+}
+
+button {
+  border-radius: 5px;
 }
 
 /******************************************
