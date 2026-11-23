@@ -1,6 +1,9 @@
 # 🧩 Tic Tac Toe
 Play Tic Tac Toe with a friend using this app. 
 
+# Link
+[Check out the Site!](https://bank-rec-assist.onrender.com/)
+
 # 📋 How to use
 1. Open the app in your browser  
 2. Play game
