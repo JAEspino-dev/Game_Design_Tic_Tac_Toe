@@ -1,5 +1,5 @@
 # 🧩 Tic Tac Toe
-Use this program if you want to convert clients' payments to USD!
+Play Tic Tac Toe with a friend using this app. 
 
 # 📋 How to use
 1. Open the app in your browser  
