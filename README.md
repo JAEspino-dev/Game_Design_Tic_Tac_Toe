@@ -2,7 +2,7 @@
 Play Tic Tac Toe with a friend using this app. 
 
 # Link
-[Check out the Site!](https://bank-rec-assist.onrender.com/)
+[Check out the Site!](https://tictactoebyje.netlify.app/)
 
 # 📋 How to use
 1. Open the app in your browser  
